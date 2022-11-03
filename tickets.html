@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Vinculación de CSS para usar Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!--Vinculación con CSS-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Imagen y texto en la pestaña del navegador-->
+    <link rel="icon" href="./Images/Escribir.png">
+    <title>Conferences for Writers</title>
+</head>
+
+<body>
+
+    <!--Comienza el header-->
+    <header class="container-fluid header">
+
+        <!--Comienza el Nav Bar-->
+        <div class="row">
+            <nav class="navbar navbar-expand-lg p-1">
+                <div class="container-fluid">
+                    <!--Logo de Conferences for Writers-->
+                    <a class="navbar-brand mx-3" href="./index.html">
+                        <img class="img-fluid" src="./Images/Logo.jpg" alt="Logo Conferencias" width="200px">
+                    </a>
+                    <!--Botón hamburguesa cuando se achica la página-->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!--Opciones del Nav Bar-->
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link mx-3" aria-current="page" href="./tickets.html#discount">Discounts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-3" aria-current="page" href="./tickets.html#Buy">Buy your ticket</a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a href="./index.html"><button type="button" class="btn mx-3 rounded-3">Home</button></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>    
+        <!--Finaliza el Nav Bar-->
+
+    </header>
+    <!--Finaliza el header-->
+
+    <!--Comienza sección de video de charla y precio entrada-->
+    <section>
+        <div class="hero">
+            <h1>Get your ticket for $200</h1>
+            <p>Don't miss this amazing opportunity!</p>
+            <video autoplay muted loop playsinline>
+                <source src='./Images/Conference.mp4' type="video/mp4">
+            </video>
+            <!--Barra blanca debajo del texto-->
+            <div class="bar"></div>
+        </div>       
+    </section>
+    <!--Finaliza sección de video de charla y precio entrada-->
+
+    <!--Comienza sección de cards de descuentos-->
+    <section class="container mt-4" id="discount">
+        <!--Título de la sección-->
+        <div class="row">
+            <div class="col-12 text-center">
+                <h6>CHECK OUR</h6>
+                <h2>DISCOUNTS</h2>
+            </div>
+        </div>
+        <!--Cards-->    
+        <div id="cards-section">
+            <div class="container">
+                <div class="row">
+                    <!--Card de estudiantes-->
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-4 col-lg-4">
+                        <div class="card">
+                            <div class="image-container">
+                                <img src="./Images/students.png" alt="student"/>
+                            </div>
+                            <div class="text-container">
+                                <h6>Students</h6>
+                                <span>80% discount*</span>
+                                <p>All high school or university students who present some accreditation that guarantees that they are regular students will be able to obtain this discount.</p>      
+                                <a href="./error.html" class="info">
+                                    <button type="button" class="btn mx-3 rounded-3">More information</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card de trainees-->
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-4 col-lg-4">
+                        <div class="card">
+                            <div class="image-container">
+                                <img src="./Images/TRAINEE.png" alt="trainee"/>
+                            </div>
+                            <div class="text-container">
+                                <h6>Trainees</h6>
+                                <span>50% discount*</span>
+                                <p>All trainee employees of any Argentine company under 25 years old can obtain this discount by presenting their last salary receipt.</p>      
+                                <a href="./error.html" class="info">
+                                    <button type="button" class="btn mx-3 rounded-3">More information</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>    
+                    <!--Card de juniors-->
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-4 col-lg-4">
+                        <div class="card">
+                            <div class="image-container">
+                                <img src="./Images/Junior.png" alt="junior"/>
+                            </div>
+                            <div class="text-container">
+                                <h6>Juniors</h6>
+                                <span>15% discount*</span>
+                                <p>All Junior employees of any Argentine company with less than 2 years of experience will be able to obtain this discount by presenting their last salary receipt.</p>      
+                                <a href="./error.html" class="info">
+                                    <button type="button" class="btn mx-3 rounded-3">More information</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>                      
+                </div>
+            </div>
+        </div>
+
+        <!--Texto debajo de descuentos-->
+        <div class="row mt-4">
+            <div class="col text-center">
+                <p>*To obtain this discount, select the corresponding category in the form below and present the supporting documentation at the entrance on the day of the event.</p>
+            </div>
+        </div>
+    </section>
+    <!--Finaliza sección con cards de descuentos-->
+
+    <!--Comienza el formulario de compra-->
+    <section class="container mt-5" id="Buy">
+        <!--Título de la sección-->
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <h6>GET YOUR</h6>
+                <h2>TICKET</h2>
+                <p>Buy your ticket at the box office on the day of the event or complete the following form to buy your ticket online. </p>
+            </div>
+        </div>
+        <!--Formulario-->
+        <form action="" id="formulario">
+            <!--Datos de nombre y apellido-->
+            <div class="row mt-5">
+                <div class="col-md-6 col-sm-12 mt-4">
+                    <input type="text" class="form-control" id="nombre" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col-md-6 col-sm-12 mt-4">
+                    <input type="text" class="form-control" id="apellido" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+            <!--Dato de mail-->
+            <div class="row mt-4">
+                <div class="col">
+                    <input type="email" class="form-control" id="mail" placeholder="Email address">
+                </div>
+            </div>
+            <!--Datos de cantidad de ticket y descuento-->
+            <div class="row">
+                <div class="col-md-6 col-sm-12 mt-4">
+                    <label for="amountTickets" class="form-label">Amount of tickets</label>
+                    <input type="number" class="form-control" placeholder="Amount" aria-label="Amount" id="cantidadTickets" min="1" required>
+                </div>
+                <div class="col-md-6 col-sm-12 mt-4">
+                    <label for="categorySelect" class="form-label">Discount</label>
+                    <select class="form-select" aria-label="Category" id="categoriaSelect">
+                        <option value="" selected class="b">Select your discount</option>
+                        <option value="0">None</option>
+                        <option value="1">Student</option>
+                        <option value="2">Trainee</option>
+                        <option value="3">Junior</option>
+                    </select>
+                </div>
+            </div>
+            <!--Conformidad de términos y servicios-->
+            <div class="row mt-3">
+                <div class="col-12 mt-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="check">
+                        <label class="form-check-label" for="defaultCheck1">                                
+                            I have read and agree to the Terms and Conditions. 
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <!--Botones de submit y de erase-->
+        <div class="row">
+            <div class="col-md-6 col-sm-12 text-md-end text-center">
+                <button type="submit" id="submit" class="btn w-75">Submit</button>
+            </div>
+            <div class="col-md-6 col-sm-12 text-md-start text-center">
+                <button type="erase" id="erase" class="btn w-75">Reset</button>
+            </div>
+        </div>
+    </section>
+    <!--Finaliza el formulario de compra-->
+
+    <!--Comienza sección con valor total a pagar al hacer submit en el formulario-->
+    <div class="container-fluid">
+        <div class="row" id="total" style="display: none;">
+            <div class="col">
+                <span></span>
+            </div>
+        </div>
+    </div>        
+    <!--Finaliza sección con valor total a pagar al hacer submit en el formulario--> 
+
+    <!--Comienza botón para ir a página de pago-->    
+    <div class="container-fluid">
+        <div class="row" id="pay" style="display: none;">
+            <div class="col">
+                <a href="./error.html"><button type="button" id="payment" class="btn">Go to pay</button></a>
+            </div>
+        </div>
+    </div>  
+    <!--Finaliza botón para ir a página de pago-->    
+
+    <!--Comienza el footer-->
+    <footer>
+        <div class="container py-5 mt-5">
+            <div class="row py-4">
+                <!--Logo y texto-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 ">
+                    <img src="./Images/Logo.jpg" alt="logo" width="250">
+                    <p class="mt-3">We bring you the best conferences for writers. <br> Encouraging you to bring out your most creative part.</p>
+                </div>
+                <!--Navigate-->
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase mb-4">Navigate</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="./index.html">Home</a></li>
+                        <li class="mb-2"><a href="./tickets.html#discount">Discounts</a></li>
+                        <li class="mb-2"><a href="./tickets.html#Buy">Buy your ticket</a></li>
+                    </ul>
+                </div>
+                <!--More about-->
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase mb-4">More about</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="./error.html">FAQ</a></li>
+                        <li class="mb-2"><a href="./error.html">Privacy</a></li>
+                        <li class="mb-2"><a href="./error.html">Contact us</a></li>
+                    </ul>
+                </div>
+                <!--Newsletter-->
+                <div class="col-lg-4 col-md-6 mb-lg-0" id="Newletter">
+                    <h6 class="text-uppercase mb-4">Newsletter</h6>
+                    <p>Subscribe to our newsletter to stay informed about upcoming events and activities that we will carry out.</p>
+                    <div class="p-1">
+                        <div class="input-group">
+                            <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+                            <div class="input-group-append">
+                                <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane fa-shake"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <!--Finaliza el footer-->
+
+    <!--Datos autora-->
+    <section>
+        <div class="container-fluid text-center" id="autora">
+            <div class="row">
+                <div class="col">
+                    <p id="made-by">&#x2661; | made by <strong>Melisa Rossi</strong> for cac 4.0 | &#x2661;</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <ul class="wrapper">
+                        <a class="icon email ms-2" href="mailto:melisa.s.rossi@gmail.com">
+                            <span class="tooltip">Email</span>
+                            <span class="ms-1 mt-1"><i class="fa-solid fa-envelope"></i></span>
+                        </a>
+                        <a class="icon linkedin" href="https://linkedin.com/in/melisasrossi" target="_blank">
+                            <span class="tooltip">LinkedIn</span>
+                            <span class="ms-1 mt-1"><i class="fab fa-linkedin"></i></span>
+                        </a>
+                        <a class="icon github" href="https://github.com/melirossi" target="_blank">
+                            <span class="tooltip">Github</span>
+                            <span class="ms-1 mt-1"><i class="fab fa-github"></i></span>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Finaliza datos autora-->    
+
+    <!--Vinculación JavaScript para la animación y calculadaora de precio de tickets-->
+    <script src="script.js"></script>
+
+    <!--Vinculación para íconos-->
+    <script src="https://kit.fontawesome.com/e6da6f019e.js" crossorigin="anonymous"></script>
+
+    <!--Vinculación de JavaScript Bundle with Popper para usar Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
+</body>
+</html>

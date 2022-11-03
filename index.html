@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Vinculación de CSS para usar Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!--Vinculación con CSS-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Imagen y texto en la pestaña del navegador-->
+    <link rel="icon" href="./Images/Escribir.png">
+    <title>Conferences for Writers</title>
+</head>
+
+<body>
+
+    <!--Comienza el header-->
+    <header class="container-fluid header" id="index">
+
+        <!--Comienza el Nav Bar-->
+        <div class="row">
+            <nav class="navbar navbar-expand-lg p-1">
+                <div class="container-fluid">
+                    <!--Logo de Conferences for Writers-->
+                    <a class="navbar-brand mx-3" href="./index.html">
+                        <img class="img-fluid" src="./Images/Logo.jpg" alt="Logo" width="200px">
+                    </a>
+                    <!--Botón hamburguesa cuando se achica la página-->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!--Enlaces y botones del Nav Bar-->
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link mx-3" aria-current="page" href="#Conference">The conference</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-3" aria-current="page" href="#Speakers">Speakers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-3" aria-current="page" href="#Place">Next editions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-3" aria-current="page" href="#Become">Become a speaker</a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a href="./tickets.html"><button type="button" class="btn mx-3 rounded-3">Buy tickets</button></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>    
+        <!--Finaliza el Nav Bar-->
+
+        <!--Comienza imagen de biblioteca con texto por encima-->
+        <div class="row d-flex justify-content-center justify-content-md-end mt-md-5 mt-sm-1 gy-5 text-center" id="Conference">
+            <!--Título-->
+            <div class="col-12 w-75 text-md-end">
+                <h1>Conferences for writers</h1>
+            </div>
+            <!--Texto-->
+            <div class="col-12 w-75 text-md-end">
+                <p>Conferences for Writers comes to Argentina for the first time. <br> An event to share with our community the knowledge and experience of writing experts. <br> Come meet renowned writers, publishers, and the top-tier speakers we have for you. <br> Don't miss it!</p>
+            </div>
+            <!--Botones-->
+            <div class="col-12 d-md-flex justify-content-md-end">
+                <a href="#Become">
+                    <button type="button" class="btn m-2 p-1">I want to be a speaker</button>
+                </a>
+                <a href="./tickets.html">
+                    <button type="button" class="btn m-2 p-1">Buy tickets</button>
+                </a>
+            </div>
+        </div>
+        <!--Finaliza imagen de biblioteca con texto por encima-->
+
+    </header>
+    <!--Finaliza el header-->
+
+    <!--Comienzan las cards con oradores-->
+    <section class="container mt-5 mb-5" id="Speakers">
+        <!--Título de la sección-->
+        <div class="row m-5">
+            <div class="col text-center">
+                <h6>MEET THE</h6>
+                <h2>SPEAKERS</h2>
+            </div>
+        </div>
+        <!--Cards-->
+        <div class="row">
+            <!--Sor Juana Inés de la Cruz-->           
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-3" id="cards">
+                <div class="card m2 mx-auto">
+                    <!--Retrato-->
+                    <img src="./Images/Juana.png" class="card-img-top img-card" alt="Sor Juana Inés de la Cruz">
+                    <div class="card-body text-center">
+                        <!--Título y texto-->
+                        <h5 class="card-title">Sor Juana Inés de la Cruz</h5>
+                        <p class="card-text">Born in a small town in Mexico, she learned to read and write at the age of three and, from a very young age, her verses stood out in the court of New Spain. In 1667, she entered a convent of the Carmelites and two years later she transferred to convent of the Order of Saint Jerome, where she created some of her most important works.</p>
+                        <!--Botón-->
+                        <a href="https://en.wikipedia.org/wiki/Juana_In%C3%A9s_de_la_Cruz" class="btn" target="_blank">Read more about her</a>
+                    </div>
+                </div>
+            </div>
+            <!--Jane Austen-->
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-3" id="cards">
+                <div class="card m2 mx-auto">
+                    <!--Retrato-->
+                    <img src="./Images/Jane.png" class="card-img-top img-card" alt="Jane Austen">
+                    <div class="card-body text-center">
+                        <!--Título y texto-->
+                        <h5 class="card-title">Jane Austen</h5>
+                        <p class="card-text">18th century British writer. Far from representing conventional romances, she used irony to criticize the social and gender differences typical of her time. Austen portrayed characters with deep and diverse psychological shades. The influence of these works was such that many have been adapted to the cinema with great success.</p>
+                        <!--Botón-->
+                        <a href="https://en.wikipedia.org/wiki/Jane_austen" class="btn" target="_blank">Read more about her</a>
+                    </div>
+                </div>
+            </div>
+            <!--Gabriela Mistral-->
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
+                <div class="card m2 mx-auto">
+                    <!--Retrato-->
+                    <img src="./Images/Gabriela.png" class="card-img-top img-card" alt="Sor Juana Inés de la Cruz">
+                    <div class="card-body text-center">
+                        <!--Título y texto-->
+                        <h5 class="card-title">Gabriela Mistral</h5>
+                        <p class="card-text">Considered one of the benchmarks of universal poetry, the Chilean writer was the first Latin American author to receive a Nobel Prize for Literature. Throughout her life, she maintained a strong commitment to equality between men and women and championed the fight for miscegenation, defending the use of indigenism in language.</p>
+                        <!--Botón-->
+                        <a href="https://en.wikipedia.org/wiki/Gabriela_Mistral" class="btn" target="_blank">Read more about her</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Finalizan las cards con oradores-->
+
+    <!--Comienza la imagen de Buenos Aires y acordeón con datos del evento-->
+    <section class="container-fluid" id="Place">
+        <!--Título de la sección-->
+        <div class="row m-5">
+            <div class="col-12 text-center">
+                <h6>CHECK THE</h6>
+                <h2>NEXT EDITIONS</h2>
+            </div>
+        </div>
+        <div class="row">
+            <!--Imagen de Buenos Aires-->
+            <div class="col-sm-12 col-lg-6 g-0">
+                <img class="img-fluid" src="./Images/BuenosAires.webp" alt="Congreso">
+            </div>
+            <!--Acordeón con fechas y lugares-->
+            <div class="col-sm-12 col-lg-6 text-sm-center text-md-center text-lg-start p-5" id="Acordeon">
+                <!--Título de la sección-->
+                <h2>Upcoming conferences</h2>
+                <div class="accordion accordion-flush mt-4" id="accordionFlushExample">
+                    <!--Buenos Aires-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Buenos Aires - October 10th, 2023
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><strong>Hilton Hotel</strong> <br><br> The event will take place at the Hilton Hotel located at Macacha Güemes 351. The event will start at 9:00 a.m. and it will end at 6:00 p.m.</div>
+                        </div>
+                    </div>
+                    <!--Salta-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Salta - October 10th, 2023
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><strong>Sheraton Salta Hotel</strong> <br><br> The event will take place at the Sheraton Salta Hotel located at Coronel Francisco De Uriondo 330. The event will start at 10:00 a.m. and it will end at 7:00 p.m.</div>
+                        </div>
+                    </div>
+                </div>
+                <!--Botón para más información-->
+                <a href="./error.html"><button type="button" class="btn mt-4">More information</button></a>
+            </div>
+        </div>
+    </section>
+    <!--Finaliza la imagen de Buenos Aires y acordeón con datos del evento-->
+
+    <!--Comienza el formulario-->
+    <section class="container mt-5" id="Become">
+        <!--Título de la sección-->
+        <div class="row m-5">
+            <div class="col-12 text-center">
+                <h6>BECOME A</h6>
+                <h2>SPEAKER</h2>
+                <p>Sign up as a speaker to give a talk.</p>
+            </div>
+        </div>
+        <!--Formulario-->
+        <form action="">
+            <div class="row">
+                <!--Datos de nombre, apellido, mail y título-->
+                <div class="col-md-6 col-sm-12 mt-4">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col-md-6 col-sm-12 mt-4">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 mt-4">
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="col-md-6 col-sm-12 mt-4">
+                    <input type="text" class="form-control" id="Title" placeholder="Title of your talk">
+                </div>
+            </div>
+            <!--Sección sobre qué desea hablar-->
+            <div class="row">
+                <div class="col mt-4">
+                    <textarea class="form-control" placeholder="Tell us what you want to talk about" aria-label="With textarea" rows="5"></textarea>
+                </div>
+            </div>
+            <!--Opción para recibir más información-->
+            <div class="row mt-2">
+                <div class="col-12 mt-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            I want to receive more information about Conferences for Writers.
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!--Botón de envío-->
+            <div class="row mt-2 justify-content-center">
+                <button type="button" class="btn w-75 mt-4">Send</button>
+            </div>
+        </form>
+    </section>
+    <!--Finaliza el formulario-->
+
+    <!--Comienza el footer-->
+    <footer>
+        <div class="container py-5 mt-5">
+            <div class="row py-4">
+                <!--Logo y texto-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 ">
+                    <img src="./Images/Logo.jpg" alt="logo" width="250">
+                    <p class="mt-3">We bring you the best conferences for writers. <br> Encouraging you to bring out your most creative part.</p>
+                </div>
+                <!--Navigate-->
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase mb-4">Navigate</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="#Conference">The conference</a></li>
+                        <li class="mb-2"><a href="#Speakers">Speakers</a></li>
+                        <li class="mb-2"><a href="#Place">Next editions</a></li>
+                        <li class="mb-2"><a href="#Become">Become a speaker</a></li>
+                    </ul>
+                </div>
+                <!--More about-->
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase mb-4">More about</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="./error.html">FAQ</a></li>
+                        <li class="mb-2"><a href="./error.html">Privacy</a></li>
+                        <li class="mb-2"><a href="./error.html">Contact us</a></li>
+                    </ul>
+                </div>
+                <!--Newsletter-->
+                <div class="col-lg-4 col-md-6 mb-lg-0" id="Newletter">
+                    <h6 class="text-uppercase mb-4">Newsletter</h6>
+                    <p>Subscribe to our newsletter to stay informed about upcoming events and activities that we will carry out.</p>
+                    <div class="p-1">
+                        <div class="input-group">
+                            <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+                            <div class="input-group-append">
+                                <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane fa-shake"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <!--Finaliza el footer-->
+
+    <!--Datos autora-->
+    <section>
+        <div class="container-fluid text-center" id="autora">
+            <div class="row">
+                <div class="col-12">
+                    <p id="made-by">&#x2661; | made by <strong>Melisa Rossi</strong> for cac 4.0 | &#x2661;</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <ul class="wrapper">
+                        <a class="icon email ms-2" href="mailto:melisa.s.rossi@gmail.com">
+                            <span class="tooltip">Email</span>
+                            <span class="ms-1 mt-1"><i class="fa-solid fa-envelope"></i></span>
+                        </a>
+                        <a class="icon linkedin" href="https://linkedin.com/in/melisasrossi" target="_blank">
+                            <span class="tooltip">LinkedIn</span>
+                            <span class="ms-1 mt-1"><i class="fab fa-linkedin"></i></span>
+                        </a>
+                        <a class="icon github" href="https://github.com/melirossi" target="_blank">
+                            <span class="tooltip">Github</span>
+                            <span class="ms-1 mt-1"><i class="fab fa-github"></i></span>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Finaliza datos autora-->
+
+    <!--Vinculación para íconos-->
+    <script src="https://kit.fontawesome.com/e6da6f019e.js" crossorigin="anonymous"></script>
+
+    <!--Vinculación de JavaScript Bundle with Popper para usar Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</body>
+</html>

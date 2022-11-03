@@ -1,0 +1,884 @@
+/* Importación de las fuentes de texto a utilizar --> Dosis + Source Sans Pro */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Source+Sans+Pro:wght@300&display=swap');
+
+/* Espaciado de la letra para todas las páginas */
+* {
+  letter-spacing: 0.1em;
+}
+
+/* -----------------INDEX----------------- */
+
+/* Nav Bar */
+
+    /* Fondo */
+    .navbar {
+        background-color: rgb(252, 222, 192);
+    }
+
+    /* Enlaces */
+    #navbarTogglerDemo01 a {
+        color: rgb(125, 90, 80); 
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+    }
+
+    /* Enlaces al hacer HOVER */
+    #navbarTogglerDemo01 a:hover {   
+      transform: translateY(-0.25em);
+    }
+
+    /* Botón */
+    #navbarTogglerDemo01 button {
+        color:rgb(125, 90, 80);
+        border-color: rgb(125, 90, 80);
+        border-width: 2px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-family: 'Dosis', sans-serif;
+    }
+
+    /* Botón al hacer HOVER */
+    #navbarTogglerDemo01 button:hover {
+        background-color: rgb(125, 90, 80); 
+        color: rgb(252, 222, 192); 
+        transform: translateY(-0.25em);
+    }
+
+/* Imagen de biblioteca con texto y botones */
+
+    /* Imagen de biblioteca */
+    #index {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(./Images/Bookshelf.png);
+        background-position: center;
+        background-size:auto;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    /* Título y texto */
+    #Conference h1 {
+        color:rgb(252, 222, 192);
+        text-transform: uppercase;
+        margin: 15px auto;
+        font-family: 'Dosis', sans-serif;
+    }
+    #Conference p {
+        color:rgb(252, 222, 192);
+        font-family: 'Source Sans Pro', sans-serif;
+        letter-spacing: 0.1em;
+        font-size: larger;
+    }
+    
+    /* Botones */
+    #Conference button {
+        color: rgb(252, 222, 192);
+        border-color: rgb(252, 222, 192);
+        border-width: 2px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    /* Botones al hacer HOVER */
+    #Conference button:hover,
+    #Conference button:focus {
+      transform: translateY(-0.25em);
+      background-color: rgb(252, 222, 192);
+      color: rgb(125, 90, 80)
+    }
+
+/* Cards con oradoras */
+
+    /* Borde de la sección */
+    #Speakers {
+      position: relative;
+      height: auto;
+      overflow: hidden;
+      border-radius: 20px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+      background-color: rgb(251, 241, 231);
+    } 
+
+    /* Título de la sección */
+    #Speakers h6, h2{
+        color: rgb(125, 90, 80);
+        font-weight: bold;
+        font-family: 'Dosis', sans-serif;
+    }
+
+    /*Tamaño del título h6 */
+    #Speakers h6 {
+      font-size: 20px;
+    }
+
+    /* Imágenes */
+    #Speakers .card-img-top{
+        width: 275px;
+        margin-top: 20px;
+        align-self: center;
+        border-radius: 15px;
+    }
+
+    /* Borde y ancho de cada card */
+    #Speakers .card {
+        width: 20rem;
+        border-color: rgb(125, 90, 80);
+        border-width: 3px;
+        background-color: rgb(251, 241, 231);
+        border-radius: 20px;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+        height: 700px;
+    }
+
+    /* Título de cada card */
+    .card-title {
+        color:rgb(125, 90, 80);
+        font-weight: bold;
+        font-family: 'Dosis', sans-serif;
+    }
+
+    /* Texto de cada card */
+    .card-text {
+        color: rgb(125, 90, 80);
+        margin: 5px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bold;
+    }
+
+    /* Botón de cada card */
+    #Speakers .btn{
+        margin-top: 15px;
+        background-color: rgb(125, 90, 80);
+        color: rgb(251, 241, 231);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Dosis', sans-serif;
+    }
+
+    /* Botones al hacer HOVER */
+    #Speakers .btn:hover,
+    #Speakers .btn:focus {
+      transform: translateY(-0.25em);
+      color: rgb(125, 90, 80);
+      background-color: rgb(251, 241, 231); 
+      border-color: rgb(125, 90, 80);
+      border-width: 2px;
+    }
+
+/* Acordeón de imágenes y datos del evento */
+
+    /* Fondo de la sección */
+    #Place {
+      padding-top: 10px;
+      background-color: rgb(251, 241, 231);
+    } 
+
+    /* Título de la sección */
+    #Place h6, h2{
+      color: rgb(125, 90, 80);
+      font-weight: bold;
+      font-family: 'Dosis', sans-serif;
+    }
+    
+    /*Tamaño del título h6 */
+    #Place h6 {
+      font-size: 20px;
+    }
+
+    /*Fondo de la sección de Acordeon*/
+    #Acordeon {
+      background-color: rgb(252, 222, 192);
+    }
+
+    /* Cuerpo de los acordeones */
+    #Place .accordion-body {
+      background-color: rgb(251, 241, 231);
+      color: rgb(125, 90, 80);
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: bold;
+    }
+
+    /* Botón de los acordeones */
+    #Place .accordion-button {
+      background-color: rgb(251, 241, 231);
+      color: rgb(125, 90, 80);
+      font-weight: bold;
+      box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+      font-family: 'Dosis', sans-serif;
+    }
+
+    /* Eliminar la flecha de los acordeones cuando se despliegan */
+    .accordion-button:not(.collapsed)::after {
+      background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;    
+    }
+
+    /* Boton de más información */
+    #Place .btn {
+      margin-top: 15px;
+      background-color: rgb(125, 90, 80);
+      color: rgb(251, 241, 231);
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: 'Dosis', sans-serif;
+    }
+
+    /* Boton al hacer hover */
+    #Place .btn:hover,
+    #Place .btn:focus {
+      transform: translateY(-0.25em);
+      color: rgb(125, 90, 80);
+      background-color: rgb(251, 241, 231); 
+      border-color: rgb(125, 90, 80);
+      border-width: 2px;
+    }
+
+/* Formulario */
+
+    /* Borde de la sección */
+    #Become {
+      position: relative;
+      width: 80%;
+      height: auto;
+      overflow: hidden;
+      border-radius: 15px;
+      margin: 0 auto;
+      box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+      background-color: rgb(251, 241, 231);
+    } 
+
+    /* Margen del formulario */
+    form {
+      margin: -3em 2em 3em;
+    }
+
+    /* Título de la sección y opción de envío de información */
+    #Become h6, h2, p, label {
+      color: rgb(125, 90, 80);
+      font-weight: bold;
+      font-family: 'Dosis', sans-serif;
+    }
+
+    /*Tamaño del título h6 */
+    #Become h6 {
+      font-size: 20px;
+    }
+
+    /* Color de fuente cuando el usuario escribe y borde de cada opción de relleno */
+    #Become .form-control {
+      color: rgb(125, 90, 80);
+      outline: none;
+      box-shadow: none;
+      border: 2px solid rgb(136, 136, 136);
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    /* Checkbox desactivado */
+    #Become .form-check-input {
+      outline: none;
+      box-shadow: none;
+      border: 2px solid rgb(136, 136, 136);
+    }
+    
+    /* Checkbox activado */
+    #Become .form-check-input:checked {
+      background-color: rgb(125, 90, 80);
+      border: 2px solid rgb(125, 90, 80);
+    }
+
+    /* Boton de envío */
+    #Become .btn {
+      margin-top: 15px;
+      background-color: rgb(125, 90, 80);
+      color: rgb(251, 241, 231);
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    /* Boton al hacer hover */
+    #Become .btn:hover,
+    #Become .btn:focus {
+      transform: translateY(-0.25em);
+      color: rgb(125, 90, 80);
+      background-color: rgb(251, 241, 231); 
+      border: 2px solid rgb(125, 90, 80);
+    }
+
+/*Footer*/
+
+    /* Fondo y contenedor */
+    footer {
+      background-color: rgb(252, 222, 192);
+      padding-bottom: 10px;
+    }
+    
+    /* H6 */
+    footer, h6{
+      color: r;
+      font-weight: bold;
+      text-decoration: none;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    /* P */
+    footer, p{
+      font-weight: 500;
+      font-family: 'Source Sans Pro', sans-serif;
+      color: rgb(48, 36, 32);
+    }
+
+    /* Opciones de navegación y otros a */
+    footer a  {
+      text-decoration: none;
+      color: rgb(48, 36, 32);
+    }
+
+    /* Hover sobre opciones de navegación y otros a */
+    footer a:hover {
+      font-weight: bold;
+      color: rgb(48, 36, 32)
+    }
+
+    /* Cuadro para ingresar email y botón de envío */
+    footer .input-group  {
+      background-color: rgb(251, 241, 231);
+      border-radius: 10px;
+    }
+    .form-control::placeholder {
+      font-size: 0.95em;
+      color: rgb(125, 90, 80);
+      font-style: italic;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    .form-control.shadow-0:focus {
+      box-shadow: none;
+    }
+
+    /* Icono para enviar el email de suscripción */
+    footer i {
+      color: rgb(125, 90, 80)
+    }
+
+/* Datos de la autora */
+
+    /* Contenedor */
+    #autora {
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      padding-bottom: 5px;
+      padding-top: 10px;
+      font-size: 0.9em;
+      text-align: center;
+      text-transform: uppercase;
+      background-color: #FBFCFC;  
+    }
+
+    /* Color del texto y espaciado */
+    #autora p{
+      color: grey;
+      margin-top: 10px;
+      letter-spacing: 0.2em;
+    }
+
+    /* Ordenar íconos en  horizontal */
+    .wrapper {
+      display: inline-flex;
+      list-style: none;
+    }
+    
+    /* Espaciado y tamaño de contenedor iconos */
+    .wrapper .icon {
+      margin-right: 10px;
+      position: relative;
+      border-radius: 50%;
+      padding: 10px;
+      width: 33.3px;
+      height: 33.3px;
+      font-size: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+      transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      color: grey;
+    }
+    
+    /* Iconos */
+    .wrapper .tooltip {
+      position: absolute;
+      top: 0;
+      font-size: 14px;
+      padding: 5px 8px;
+      border-radius: 5px;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+    
+    /* Flecha que aparece debajo del nombre del nombre del icono */
+    .wrapper .tooltip::before {
+      position: absolute;
+      content: "";
+      height: 8px;
+      width: 8px;
+      bottom: -3px;
+      left: 50%;
+      transform: translate(-50%) rotate(45deg);
+      transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    
+    /* Nombre del icono al hacer hover */
+    .wrapper .icon:hover .tooltip {
+      top: -45px;
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    /* Sombra del contenedor del texto del icono al hacer hover */
+    .wrapper .icon:hover span,
+    .wrapper .icon:hover .tooltip {
+      text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Color del texto de cada icono */
+    .wrapper .email:hover,
+    .wrapper .email:hover .tooltip,
+    .wrapper .email:hover .tooltip::before {
+      background: #c71610;
+      color: #ffffff;
+    }
+    .wrapper .linkedin:hover,
+    .wrapper .linkedin:hover .tooltip,
+    .wrapper .linkedin:hover .tooltip::before {
+      background: #0e76a8;
+      color: #ffffff;
+    }
+    .wrapper .github:hover,
+    .wrapper .github:hover .tooltip,
+    .wrapper .github:hover .tooltip::before {
+      background: #333333;
+      color: #ffffff;
+    }
+    
+/* -----------------ERROR----------------- */
+
+  /* Color de fondo */
+  .error {
+    background-color: rgb(251, 241, 231);
+  }
+
+  /* Posición centrada de la animación */
+  #error {
+  margin: 0 auto;
+  display: block;
+  }
+
+  /* Alineación y estilo del texto */
+  .msg {
+      text-align: center;
+      top: 45%;
+      justify-content: center;
+    }
+
+  /* Frase Quelle Honte ! */
+  .error h1 {
+    font-family: 'Dosis', sans-serif;
+    color: rgb(125, 90, 80);
+  }
+
+  /* Color y sacar subrayado del enlace home */
+  .error a {
+    text-decoration: none;
+    color: rgb(125, 90, 80);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    margin: auto 0.4em;
+  }
+
+  /* Enlace home al hacer hover */
+  .error a:hover {
+    text-decoration: underline;
+  }
+
+  /* Texto debajo de Quelle honte ! */
+  .mainbox p {
+    color: rgb(48, 36, 32);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+  }
+
+/* -----------------TICKETS----------------- */
+
+/* Video y precio entrada */
+
+  /* Efecto de entrada de texto */
+  @-webkit-keyframes scale-in {
+    0%   {transform: scale(10, 10); opacity: 0;}
+    100% {transform: scale(1, 1); opacity: 1;}
+  }
+  @keyframes scale-in {
+      0%   {transform: scale(10, 10); opacity: 0;}
+      100% {transform: scale(1, 1);  opacity: 1;}
+  }
+
+  /* Contenedor */
+  .hero{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+    position: relative; 
+  }
+
+  /* Título y texto de la sección */
+  .hero h1{
+    font-size: 3.7em;
+    margin: auto;
+    position: absolute; 
+    top: 160px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+  }
+  .hero p{
+    font-size: 1.7em;
+    margin: auto;
+    position: absolute; 
+    top: 260px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    font-family: 'Dosis', sans-serif;
+  }
+
+  /* Animación del título y texto */
+  .hero h1, .hero p{
+    -webkit-animation: scale-in 1.3s ease-out;
+    -moz-animation: scale-in 1.3s  ease-out;
+    animation: scale-in 1.3s ease-out; 
+    color: rgb(48, 36, 32);
+  }
+
+  /* Tamaño de video */
+  .hero video{
+    width: 100%;
+  }
+
+  /* Barra clara para la lectura del texto */
+  .bar{
+    width: 100%;
+    height: 200px;
+    background: white;
+    opacity: 0.5;
+    position: absolute; 
+    z-index: 0;
+    left: 0;
+    top: 130px;
+    -ms-transform-origin: 100% 0%;
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+    -webkit-animation: roll-out 1.2s ease-out ;
+    -moz-animation: roll-out 1.2s ease-out ;
+    animation: roll-out 1.2s ease-out ; 
+  }
+
+  /* Media Queries Responsive */
+  @media all and (max-width: 1023px) {
+    .hero{
+      height: 50vw;
+      margin-bottom: -50px;
+    }
+    .bar{
+      height: 23vw;
+      top: 5vw;
+    }
+    .hero h1{
+      font-size: 7vw;
+      top: 7vw;
+    }
+    .hero p{
+      font-size: 4vw;
+      top: 20vw;
+    }
+  }
+  @media (max-width: 1789px) and (min-width: 1450px) {
+    .hero {
+      margin-bottom: 100px;
+    }
+  }
+  @media all and (min-width: 1790px) {
+    .hero{
+      margin-bottom: 200px;
+    }
+  }
+
+/*Cards con descuentos */
+
+  /* Título de la sección */
+  #discount h6 {
+    color:rgb(125, 90, 80);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  /* Margen con el elemento superior al abrirse las cards */
+  #cards-section .container{
+    margin-top: 15px; 
+  }
+
+  /* Texto de las cards */
+  #cards-section .card .text-container{
+    padding: 6px 28px;
+    text-align: center;
+  }
+
+  /* Características de las cards y efecto de abrirse */
+  #cards-section .card{
+    background: #FFFFFF;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.40);
+    border-radius: 7px;
+    overflow: hidden;
+    height: 192px;
+    margin: 50px 0px;
+  }
+  
+  /* Apertura de las cards al hacer hover */
+  #cards-section .card:hover{
+    box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.50);
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    height:fit-content;
+    margin-top: 0px;
+    cursor: pointer;
+  }
+
+  /* Imagen de las cards */
+  #cards-section .card .image-container{
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* Contenerdor de la imagen y efecto de borde superior de color */
+  #cards-section .card .image-container img{
+    -webkit-transition:all 0.5s ease-in; 
+    -moz-transition:all 0.5s ease-in; 
+    -o-transition:all 0.5s ease-in;
+    -ms-transition:all 0.5s ease-in; 
+    transition: all 0.5s ease-in;
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    z-index:99;
+  }
+
+  /* Texto p */
+  #cards-section .card p{
+    font-size: 17px;
+    color: #424242;
+    margin: 6px 0px 0px 0px;
+    line-height: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+  }
+  
+  /* Texto de porcentaje de descuento */
+  #cards-section .card span{
+    font-size: 19px;
+    color: rgb(125, 90, 80);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+  }
+
+  /* Título */
+  #cards-section .card h6{
+    font-size: 28px;
+    font-weight: 900;
+    color: rgb(125, 90, 80);
+    line-height: 26px;
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  /* Efecto del borde superior al abrise las cards */
+  .image-container:after {
+    position: absolute;
+    content: "";
+    opacity: 0.7;
+  }
+  #cards-section .card:hover .image-container:after{
+    -webkit-transition:all 0.5s ease-in; 
+    -moz-transition:all 0.5s ease-in; 
+    -o-transition:all 0.5s ease-in;
+    -ms-transition:all 0.5s ease-in; 
+    transition: all 0.5s ease-in;  
+    width: 120%;
+    top: -90px;
+    height: 210px;
+    border-radius: 50%;
+    background-color: rgb(252, 222, 192);
+    z-index:1;
+    left: -10%;
+  }
+
+  /* Botón de más información*/
+  .info button {
+    margin-top: 20px;
+    color: rgb(125, 90, 80);
+    background-color: rgb(252, 222, 192);
+    font-weight: bold;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 30px;
+  }
+
+  /* Botón de más información al hacer hover */
+  .info .btn:hover {
+    transform: translateY(-0.25em);
+    color: rgb(125, 90, 80);
+    background-color: rgb(252, 222, 192);
+  }
+
+/* Formulario */
+
+  /* Borde de la sección */
+  #Buy {
+    position: relative;
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 0 auto;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    background-color: rgb(251, 241, 231);
+  } 
+
+  /*Tamaño del título h6 */
+  #Buy h6 {
+    font-size: 20px;
+    color: rgb(125, 90, 80);
+    font-weight: bold;
+  }
+
+  /* Color de fuente cuando el usuario escribe y borde de cada opción de relleno */
+  #Buy .form-control, .form-check-input, #categoriaSelect {
+    color: rgb(125, 90, 80);
+    box-shadow: none;
+    border: 2px solid rgb(136, 136, 136);
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+  }
+  #Buy label {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+  }
+
+  /* Checkbox desactivado */
+  #Buy .form-check-input {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid rgb(136, 136, 136);
+  }
+
+  /* Checkbox activado */
+  #Buy .form-check-input:checked {
+    background-color: rgb(125, 90, 80);
+    border: 1px solid rgb(125, 90, 80);
+  }
+
+  /* Boton de submit y de reset */
+  #Buy .btn {
+    margin-bottom: 3em;
+    margin-top: -10px;
+    background-color: rgb(125, 90, 80);
+    color: rgb(251, 241, 231);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+  }
+
+  /* Boton al hacer hover */
+  #Buy .btn:hover,
+  #Buy .btn:focus {
+    transform: translateY(-0.25em);
+    color: rgb(125, 90, 80);
+    background-color: rgb(251, 241, 231); 
+    border: 2px solid rgb(125, 90, 80);
+  }
+
+/* Cartel con total a pagar y medios de pago */
+
+  /* Total a pagar */
+  #total {
+    color: rgb(125, 90, 80);
+    background-color: rgb(251, 241, 231);
+    width: 70%;
+    max-width: 1000px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    font-size: 1.7em;
+    font-weight: bold;
+    margin: 1em auto;
+    border-radius: 1em;
+    padding: 0.1em;
+    align-items: center;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  /* Botón de página de pago */
+  #pay .btn {
+    margin: auto;
+    width: 40%;
+    padding: 0.5em;
+    display: block;
+    background-color: rgb(251, 241, 231);
+    color: rgb(125, 90, 80);
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    border-radius: 1em;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+    font-family: 'Dosis', sans-serif;
+  }
+
+  /* Quitar subrayado azul al enlace del botón de pago */
+  #pay a {
+    text-decoration: none;
+  }
+
+  /* Boton de página de pago al hacer hover */
+  #pay .btn:hover,
+  #pay .btn:focus {
+    transform: translateY(-0.25em);
+    color: rgb(251, 241, 231);
+    background-color: rgb(125, 90, 80); 
+    font-family: 'Dosis', sans-serif;
+  }
