@@ -1,1 +1,1 @@
-# A website for a confrence
+# A website for a conference
