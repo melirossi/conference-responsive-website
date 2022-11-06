@@ -1,2 +1,1 @@
-# Conference_Website
-Website for Conference for Writers
+# A website for a confrence
