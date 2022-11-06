@@ -49,7 +49,7 @@ let valorTicket = 200;
 // Definimos los porcentajes de descuento usando el equivalente:
 let descuentoEstudiante = 0.20;
 let descuentoTrainee = 0.50;
-let descuentoJunior = 0.75;
+let descuentoJunior = 0.85;
 
 // Guardamos los elementos del formulario en variables:
 let nombre = document.getElementById("nombre");
