@@ -1,6 +1,7 @@
 ![LastCommit](https://img.shields.io/github/last-commit/melirossi/Conference_Website/master?color=brightgreen&label=Last%20commit&style=flat-square)
 ![Size](https://img.shields.io/github/repo-size/melirossi/Conference_Website?color=orange&label=Repo%20size&style=flat-square)
 
+
 # 🖋️ 𝘾𝙤𝙣𝙛𝙚𝙧𝙚𝙣𝙘𝙚𝙨 𝙛𝙤𝙧 𝙒𝙧𝙞𝙩𝙚𝙧𝙨
 
 Responsive website made for the course "𝗙𝘂𝗹𝗹 𝗦𝘁𝗮𝗰𝗸 𝘄𝗶𝘁𝗵 𝗝𝗮𝘃𝗮" dictated by 𝗖𝗼𝗱𝗼 𝗮 𝗖𝗼𝗱𝗼 𝟰.𝟬.
@@ -8,6 +9,10 @@ Responsive website made for the course "𝗙𝘂𝗹𝗹 𝗦𝘁𝗮𝗰𝗸 �
 This website was built thinking of a company that organizes conferences and events for writers.
 
 I developed 3 HTML pages: 𝗛𝗼𝗺𝗲, 𝗧𝗶𝗰𝗸𝗲𝘁𝘀 and 𝟰𝟬𝟰𝗘𝗿𝗿𝗼𝗿.
+
+[![LinkToWeb](https://img.shields.io/badge/Link_to_Web-ff69b4?style=for-the-badge&logo=appveyor.svg)](https://melirossi.github.io/Conference_Website/index.html)
+
+<br>
 
 ##  𝗛𝗼𝗺𝗲 
  
@@ -23,7 +28,7 @@ I developed 3 HTML pages: 𝗛𝗼𝗺𝗲, 𝗧𝗶𝗰𝗸𝗲𝘁𝘀 and �
 
 🏠 Footer with company logo and mission, page navigation, more topics and newsletter subscription.
 
-![App Screenshot](https://photos.app.goo.gl/6uu64kNDsAQbVMi79)
+<br>
 
 ## 𝗧𝗶𝗰𝗸𝗲𝘁𝘀
  
@@ -43,6 +48,9 @@ category and check to agree withe the terms and conditions.
 🔍 Animation showing error message.
 
 🔍 Message that the page is under construction and link to return to Home.
+
+<br>
+   
 ## 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀
 
 ✔️ Correct use of HTML5 semantic tags.
@@ -55,18 +63,20 @@ category and check to agree withe the terms and conditions.
 
 ✔️ Responsive design.
 
+<br>
 
 ## 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝘂𝘀𝗲𝗱
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 
+<br>
 
 ## 𝗠𝘆 𝗟𝗶𝗻𝗸𝘀
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/melirossi)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/melisasrossi/)
 
-
+<br>
 
 ### 
 
