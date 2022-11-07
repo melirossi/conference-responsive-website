@@ -15,7 +15,45 @@ I developed 3 HTML pages: 𝗛𝗼𝗺𝗲, 𝗧𝗶𝗰𝗸𝗲𝘁𝘀 and �
 
 🏠 Presentation of the page with background image and most important navigation buttons.
 
-🏠 Presentation of the page with background image and most important navigation buttons.
+🏠 Cards with speakers.
+
+🏠 Next editions section with image and accordion.
+
+🏠 Form to become a speaker that includes name, surname, email, talk title, talk topic and check to receive more information.
+
+🏠 Footer with company logo and mission, page navigation, more topics and newsletter subscription.
+
+![App Screenshot](https://photos.app.goo.gl/6uu64kNDsAQbVMi79)
+
+## 𝗧𝗶𝗰𝗸𝗲𝘁𝘀
+ 
+🎫 NavBar with the company logo and navigation menu.
+
+🎫 Presentation of the page with background viedo and text with entrance effect.
+
+🎫 Cards that open when hovering with discount data.
+
+🎫 Form to buy tickets that includes name, surname, email, amount of tickets, discount 
+category and check to agree withe the terms and conditions. 
+
+🎫 Footer with company logo and mission, page navigation, more topics and newsletter subscription.
+
+## 𝟰𝟬𝟰 𝗘𝗿𝗿𝗼𝗿
+
+🔍 Animation showing error message.
+
+🔍 Message that the page is under construction and link to return to Home.
+## 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀
+
+✔️ Correct use of HTML5 semantic tags.
+
+✔️ Fontawesome icons and Google fonts.
+
+✔️ Aesthetics: clean design with attractive visualization.
+
+✔️ Functional buy tickets form, with reset button validated with JavaScrip, that shows final amount to pay (calculated according to the number of tickets and discount indicated) and the button to go to the payment page is displayed under the form.
+
+✔️ Responsive design.
 
 
 ## 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝘂𝘀𝗲𝗱
@@ -24,27 +62,14 @@ I developed 3 HTML pages: 𝗛𝗼𝗺𝗲, 𝗧𝗶𝗰𝗸𝗲𝘁𝘀 and �
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 
 
-## Features
-
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+## 𝗠𝘆 𝗟𝗶𝗻𝗸𝘀
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/melirossi)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/melisasrossi/)
 
 
-## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+### 
 
-
-## Feedback
-
-If you have any feedback, please reach out to me at melisa.s.rossi@gmail.com
-
+𝗔𝗻𝘆 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀, 𝗰𝗼𝗺𝗺𝗲𝗻𝘁𝘀 𝗼𝗿 𝘀𝘂𝗴𝗴𝗲𝘀𝘁𝗶𝗼𝗻𝘀 𝗱𝗼 𝗻𝗼𝘁 𝗵𝗲𝘀𝗶𝘁𝗮𝘁𝗲 𝘁𝗼 𝗰𝗼𝗻𝘁𝗮𝗰𝘁 𝗺𝗲. 𝗙𝗲𝗲𝗹 𝗳𝗿𝗲𝗲 𝘁𝗼 𝘂𝘀𝗲 𝘁𝗵𝗲 𝗰𝗼𝗱𝗲 𝗼𝗳 𝘁𝗵𝗶𝘀 𝗽𝗿𝗼𝗷𝗲𝗰𝘁!
 
 ![MadeWithLove](http://ForTheBadge.com/images/badges/built-with-love.svg)
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
-
