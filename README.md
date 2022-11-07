@@ -10,7 +10,7 @@ This website was built thinking of a company that organizes conferences and even
 
 I developed 3 HTML pages: 𝗛𝗼𝗺𝗲, 𝗧𝗶𝗰𝗸𝗲𝘁𝘀 and 𝟰𝟬𝟰𝗘𝗿𝗿𝗼𝗿.
 
-[![LinkToWeb](https://img.shields.io/badge/Link_to_Web-ff69b4?style=for-the-badge&logo=appveyor.svg)](https://melirossi.github.io/Conference_Website/index.html)
+[![LinkToWeb](https://img.shields.io/badge/Link_to_Web-blue?style=for-the-badge&logo=appveyor.svg)](https://melirossi.github.io/Conference_Website/index.html)
 
 ##  𝗛𝗼𝗺𝗲 
  
@@ -65,6 +65,7 @@ category and check to agree withe the terms and conditions.
 ## 𝗠𝘆 𝗟𝗶𝗻𝗸𝘀
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/melirossi)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/melisasrossi/)
+
 
 ### 
 
