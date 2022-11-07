@@ -11,9 +11,7 @@ This website was built thinking of a company that organizes conferences and even
 I developed 3 HTML pages: 𝗛𝗼𝗺𝗲, 𝗧𝗶𝗰𝗸𝗲𝘁𝘀 and 𝟰𝟬𝟰𝗘𝗿𝗿𝗼𝗿.
 
 [![LinkToWeb](https://img.shields.io/badge/Link_to_Web-ff69b4?style=for-the-badge&logo=appveyor.svg)](https://melirossi.github.io/Conference_Website/index.html)
-
 <br>
-
 ##  𝗛𝗼𝗺𝗲 
  
 🏠 NavBar with the company logo and navigation menu.
@@ -27,8 +25,6 @@ I developed 3 HTML pages: 𝗛𝗼𝗺𝗲, 𝗧𝗶𝗰𝗸𝗲𝘁𝘀 and �
 🏠 Form to become a speaker that includes name, surname, email, talk title, talk topic and check to receive more information.
 
 🏠 Footer with company logo and mission, page navigation, more topics and newsletter subscription.
-
-<br>
 
 ## 𝗧𝗶𝗰𝗸𝗲𝘁𝘀
  
@@ -48,8 +44,6 @@ category and check to agree withe the terms and conditions.
 🔍 Animation showing error message.
 
 🔍 Message that the page is under construction and link to return to Home.
-
-<br>
    
 ## 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀
 
@@ -63,20 +57,14 @@ category and check to agree withe the terms and conditions.
 
 ✔️ Responsive design.
 
-<br>
-
 ## 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝘂𝘀𝗲𝗱
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 
-<br>
-
 ## 𝗠𝘆 𝗟𝗶𝗻𝗸𝘀
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/melirossi)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/melisasrossi/)
-
-<br>
 
 ### 
 
