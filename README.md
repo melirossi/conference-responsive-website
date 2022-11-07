@@ -25,7 +25,7 @@ I developed 3 HTML pages: 𝗛𝗼𝗺𝗲, 𝗧𝗶𝗰𝗸𝗲𝘁𝘀 and �
 🏠 Form to become a speaker that includes name, surname, email, talk title, talk topic and check to receive more information.
 
 🏠 Footer with company logo and mission, page navigation, more topics and newsletter subscription.
-
+<br>
 ## 𝗧𝗶𝗰𝗸𝗲𝘁𝘀
  
 🎫 NavBar with the company logo and navigation menu.
@@ -38,13 +38,13 @@ I developed 3 HTML pages: 𝗛𝗼𝗺𝗲, 𝗧𝗶𝗰𝗸𝗲𝘁𝘀 and �
 category and check to agree withe the terms and conditions. 
 
 🎫 Footer with company logo and mission, page navigation, more topics and newsletter subscription.
-
+<br>
 ## 𝟰𝟬𝟰 𝗘𝗿𝗿𝗼𝗿
 
 🔍 Animation showing error message.
 
 🔍 Message that the page is under construction and link to return to Home.
-   
+<br>
 ## 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀
 
 ✔️ Correct use of HTML5 semantic tags.
