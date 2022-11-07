@@ -8,4 +8,4 @@
 
 
 ![MadeWithLove](http://ForTheBadge.com/images/badges/built-with-love.svg)
-	
+![LastCommit](https://badgen.net/github/last-commit/micromatch/micromatch)
