@@ -1,7 +1,8 @@
 
 # 🖋️ 𝘾𝙤𝙣𝙛𝙚𝙧𝙚𝙣𝙘𝙚𝙨 𝙛𝙤𝙧 𝙒𝙧𝙞𝙩𝙚𝙧𝙨
 
-![MadeWithLove](http://ForTheBadge.com/images/badges/built-with-love.svg)
+![MadeWithLove](
+https://img.shields.io/github/all-contributors/melirossi/Conference_Website?color=blue&label=Contributors&logo=Meli&logoColor=black&style=for-the-badge)
 
 ## 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝘂𝘀𝗲𝗱
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -10,4 +11,3 @@
 
 
 ![MadeWithLove](http://ForTheBadge.com/images/badges/built-with-love.svg)
-
