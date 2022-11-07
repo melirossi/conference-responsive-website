@@ -11,7 +11,7 @@ This website was built thinking of a company that organizes conferences and even
 I developed 3 HTML pages: 𝗛𝗼𝗺𝗲, 𝗧𝗶𝗰𝗸𝗲𝘁𝘀 and 𝟰𝟬𝟰𝗘𝗿𝗿𝗼𝗿.
 
 [![LinkToWeb](https://img.shields.io/badge/Link_to_Web-ff69b4?style=for-the-badge&logo=appveyor.svg)](https://melirossi.github.io/Conference_Website/index.html)
-<br>
+
 ##  𝗛𝗼𝗺𝗲 
  
 🏠 NavBar with the company logo and navigation menu.
@@ -25,7 +25,7 @@ I developed 3 HTML pages: 𝗛𝗼𝗺𝗲, 𝗧𝗶𝗰𝗸𝗲𝘁𝘀 and �
 🏠 Form to become a speaker that includes name, surname, email, talk title, talk topic and check to receive more information.
 
 🏠 Footer with company logo and mission, page navigation, more topics and newsletter subscription.
-<br>
+
 ## 𝗧𝗶𝗰𝗸𝗲𝘁𝘀
  
 🎫 NavBar with the company logo and navigation menu.
@@ -38,13 +38,13 @@ I developed 3 HTML pages: 𝗛𝗼𝗺𝗲, 𝗧𝗶𝗰𝗸𝗲𝘁𝘀 and �
 category and check to agree withe the terms and conditions. 
 
 🎫 Footer with company logo and mission, page navigation, more topics and newsletter subscription.
-<br>
+
 ## 𝟰𝟬𝟰 𝗘𝗿𝗿𝗼𝗿
 
 🔍 Animation showing error message.
 
 🔍 Message that the page is under construction and link to return to Home.
-<br>
+
 ## 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀
 
 ✔️ Correct use of HTML5 semantic tags.
@@ -70,4 +70,4 @@ category and check to agree withe the terms and conditions.
 
 𝗔𝗻𝘆 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀, 𝗰𝗼𝗺𝗺𝗲𝗻𝘁𝘀 𝗼𝗿 𝘀𝘂𝗴𝗴𝗲𝘀𝘁𝗶𝗼𝗻𝘀 𝗱𝗼 𝗻𝗼𝘁 𝗵𝗲𝘀𝗶𝘁𝗮𝘁𝗲 𝘁𝗼 𝗰𝗼𝗻𝘁𝗮𝗰𝘁 𝗺𝗲. 𝗙𝗲𝗲𝗹 𝗳𝗿𝗲𝗲 𝘁𝗼 𝘂𝘀𝗲 𝘁𝗵𝗲 𝗰𝗼𝗱𝗲 𝗼𝗳 𝘁𝗵𝗶𝘀 𝗽𝗿𝗼𝗷𝗲𝗰𝘁!
 
-![MadeWithLove](http://ForTheBadge.com/images/badges/built-with-love.svg)
+![MadeWithLove](https://img.shields.io/badge/MADE_WITH_L♡VE-ff69b4?style=for-the-badge&logo=appveyor.svg)
