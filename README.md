@@ -1,5 +1,5 @@
 ![LastCommit](https://img.shields.io/github/last-commit/melirossi/Conference_Website/master?color=brightgreen&label=Last%20commit&style=flat-square)
-![Size](https://img.shields.io/github/repo-size/melirossi/Conference_Website?color=orange&label=Repo%20size&style=flat-square)
+![Size](https://img.shields.io/github/repo-size/melirossi/Conference_Website?color=blue&label=Repo%20size&style=flat-square)
 
 
 # 🖋️ 𝘾𝙤𝙣𝙛𝙚𝙧𝙚𝙣𝙘𝙚𝙨 𝙛𝙤𝙧 𝙒𝙧𝙞𝙩𝙚𝙧𝙨
@@ -10,9 +10,9 @@ This website was built thinking of a company that organizes conferences and even
 
 I developed 3 HTML pages: 𝗛𝗼𝗺𝗲, 𝗧𝗶𝗰𝗸𝗲𝘁𝘀 and 𝟰𝟬𝟰𝗘𝗿𝗿𝗼𝗿.
 
-[![LinkToWeb](https://img.shields.io/badge/Link_to_Web-blue?style=for-the-badge&logo=appveyor.svg)](https://melirossi.github.io/Conference_Website/index.html)
+[![LinkToWeb](https://img.shields.io/badge/Link_to__the_Website-orange?style=for-the-badge&logo=appveyor.svg)](https://melirossi.github.io/Conference_Website/index.html)
 
-##  𝗛𝗼𝗺𝗲 
+####  𝗛𝗼𝗺𝗲 
  
 🏠 NavBar with the company logo and navigation menu.
 
@@ -26,7 +26,7 @@ I developed 3 HTML pages: 𝗛𝗼𝗺𝗲, 𝗧𝗶𝗰𝗸𝗲𝘁𝘀 and �
 
 🏠 Footer with company logo and mission, page navigation, more topics and newsletter subscription.
 
-## 𝗧𝗶𝗰𝗸𝗲𝘁𝘀
+### 𝗧𝗶𝗰𝗸𝗲𝘁𝘀
  
 🎫 NavBar with the company logo and navigation menu.
 
