@@ -10,9 +10,9 @@ This website was built thinking of a company that organizes conferences and even
 
 I developed 3 HTML pages: 𝗛𝗼𝗺𝗲, 𝗧𝗶𝗰𝗸𝗲𝘁𝘀 and 𝟰𝟬𝟰𝗘𝗿𝗿𝗼𝗿.
 
-[![LinkToWeb](https://img.shields.io/badge/Link_to__the_Website-orange?style=for-the-badge&logo=appveyor.svg)](https://melirossi.github.io/Conference_Website/index.html)
+[![LinkToWeb](https://img.shields.io/badge/Link_to_the_Website-orange?style=for-the-badge&logo=appveyor.svg)](https://melirossi.github.io/Conference_Website/index.html)
 
-####  𝗛𝗼𝗺𝗲 
+###  𝗛𝗼𝗺𝗲 
  
 🏠 NavBar with the company logo and navigation menu.
 
@@ -39,7 +39,7 @@ category and check to agree withe the terms and conditions.
 
 🎫 Footer with company logo and mission, page navigation, more topics and newsletter subscription.
 
-## 𝟰𝟬𝟰 𝗘𝗿𝗿𝗼𝗿
+### 𝟰𝟬𝟰 𝗘𝗿𝗿𝗼𝗿
 
 🔍 Animation showing error message.
 
@@ -47,15 +47,15 @@ category and check to agree withe the terms and conditions.
 
 ## 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀
 
-✔️ Correct use of HTML5 semantic tags.
+✔️ Simple interface.
+
+✔️ Responsive design. 
 
 ✔️ Fontawesome icons and Google fonts.
 
-✔️ Aesthetics: clean design with attractive visualization.
+✔️ Clean design with attractive visualization.
 
-✔️ Functional buy tickets form, with reset button validated with JavaScrip, that shows final amount to pay (calculated according to the number of tickets and discount indicated) and the button to go to the payment page is displayed under the form.
-
-✔️ Responsive design.
+✔️ Functional "Buy Tickets" form, with reset button and validated with JavaScrip. The final amount to pay (calculated according to the number of tickets and discount indicated) and the button to go to the payment page is displayed under the form when pressing the submit button.
 
 ## 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝘂𝘀𝗲𝗱
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
