@@ -70,4 +70,4 @@ category and check to agree withe the terms and conditions.
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/melirossi)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/melisasrossi/)
 
-![MadeWithLove](https://img.shields.io/badge/MADE_WITH_L♡VE-ff69b4?style=for-the-badge&logo=appveyor.svg)
+![MadeWithLove](https://img.shields.io/badge/MADE_WITH_L♡VE_BY_MEL-ff69b4?style=for-the-badge&logo=appveyor.svg)
