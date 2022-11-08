@@ -10,8 +10,6 @@ This website was built thinking of a company that organizes conferences and even
 
 I developed 3 HTML pages: 𝗛𝗼𝗺𝗲, 𝗧𝗶𝗰𝗸𝗲𝘁𝘀 and 𝟰𝟬𝟰𝗘𝗿𝗿𝗼𝗿.
 
-[![LinkToWeb](https://img.shields.io/badge/Link_to_the_Website-orange?style=for-the-badge&logo=appveyor.svg)](https://melirossi.github.io/Conference_Website/index.html)
-
 ###  𝗛𝗼𝗺𝗲 
  
 🏠 NavBar with the company logo and navigation menu.
@@ -44,6 +42,8 @@ category and check to agree withe the terms and conditions.
 🔍 Animation showing error message.
 
 🔍 Message that the page is under construction and link to return to Home.
+
+[![LinkToWeb](https://img.shields.io/badge/Link_to_the_Website-orange?style=for-the-badge&logo=appveyor.svg)](https://melirossi.github.io/Conference_Website/index.html)
 
 ## 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀
 
