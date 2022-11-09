@@ -1,5 +1,6 @@
-![LastCommit](https://img.shields.io/github/last-commit/melirossi/Conference_Website/master?color=brightgreen&label=Last%20commit&style=flat-square)
-![Size](https://img.shields.io/github/repo-size/melirossi/Conference_Website?color=blue&label=Repo%20size&style=flat-square)
+![LastCommit](https://img.shields.io/github/last-commit/melirossi/Conference_Website/master?color=blue&label=Last%20commit&style=flat-square)
+![Size](https://img.shields.io/github/repo-size/melirossi/Conference_Website?color=brightgreen&label=Repo%20size&style=flat-square)
+![Watchers](https://img.shields.io/github/watchers/melirossi/melirossi?color=orange&label=Watchers&style=flat-square)
 
 
 # 🖋️ 𝘾𝙤𝙣𝙛𝙚𝙧𝙚𝙣𝙘𝙚𝙨 𝙛𝙤𝙧 𝙒𝙧𝙞𝙩𝙚𝙧𝙨
