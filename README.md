@@ -1,74 +1,85 @@
-![LastCommit](https://img.shields.io/github/last-commit/melirossi/Conference_Website/master?color=blue&label=Last%20commit&style=flat-square)
-![Size](https://img.shields.io/github/repo-size/melirossi/Conference_Website?color=brightgreen&label=Repo%20size&style=flat-square)
-![Watchers](https://img.shields.io/github/watchers/melirossi/melirossi?color=orange&label=Watchers&style=flat-square)
+![InProgress](https://img.shields.io/badge/Status-completed-A7FC00?style=flat-square)
+![LastCommit](https://img.shields.io/github/last-commit/melirossi/conference_responsive_website?color=FC00A7&label=Last%20commit&style=flat-square)
+![Size](https://img.shields.io/github/repo-size/melirossi/conference_responsive_website?color=00A7FC&label=Repo%20size&style=flat-square)
 
+# ✍🏻 𝙍𝙚𝙨𝙥𝙤𝙣𝙨𝙞𝙫𝙚 𝙬𝙚𝙗𝙨𝙞𝙩𝙚 𝙛𝙤𝙧 𝙖𝙣 𝙤𝙧𝙜𝙖𝙣𝙞𝙯𝙖𝙩𝙞𝙤𝙣 𝙩𝙝𝙖𝙩 𝙝𝙤𝙨𝙩𝙨 𝙘𝙤𝙣𝙛𝙚𝙧𝙚𝙣𝙘𝙚𝙨 𝙛𝙤𝙧 𝙬𝙧𝙞𝙩𝙚𝙧𝙨
 
-# 🖋️ 𝘾𝙤𝙣𝙛𝙚𝙧𝙚𝙣𝙘𝙚𝙨 𝙛𝙤𝙧 𝙒𝙧𝙞𝙩𝙚𝙧𝙨
+<p align="center">
+This website was built thinking of a company that organizes conferences and events for writers. For this project, I developed 3 HTML pages: Home, Tickets and 404Error.
+</p>
+<br>
+<table align="center">
+  <tr>
+    <td><img src="https://github.com/melirossi/conference_responsive_website/blob/master/Images/conference%20website.JPG" alt="website" height="240"></td>
+    <td><img src="https://github.com/melirossi/conference_responsive_website/blob/master/Images/tickets.JPG" alt="tickets section" height="240"></td>
+  </tr>
+</table>
+<br>
+<p align="center">
+<a href="https://melirossi.github.io/conference_responsive_website/tickets.html" target="blank"><img align="center" src="https://img.shields.io/badge/Link_to_website-FC7800?style=for-the-badge" alt="LinkProyecto"/></a>
+</p>
 
-Responsive website made for the course "𝗙𝘂𝗹𝗹 𝗦𝘁𝗮𝗰𝗸 𝘄𝗶𝘁𝗵 𝗝𝗮𝘃𝗮" dictated by 𝗖𝗼𝗱𝗼 𝗮 𝗖𝗼𝗱𝗼 𝟰.𝟬.
+### The Home page includes:
 
-This website was built thinking of a company that organizes conferences and events for writers.
+✔️ Navbar with company logo and navigation menu.
 
-I developed 3 HTML pages: 𝗛𝗼𝗺𝗲, 𝗧𝗶𝗰𝗸𝗲𝘁𝘀 and 𝟰𝟬𝟰𝗘𝗿𝗿𝗼𝗿.
+✔️ Page presentation with background image and essential navigation buttons.
 
-###  𝗛𝗼𝗺𝗲 
- 
-🏠 NavBar with the company logo and navigation menu.
+✔️ Speaker cards.
 
-🏠 Presentation of the page with background image and most important navigation buttons.
+✔️ Upcoming editions section with image and accordion.
 
-🏠 Cards with speakers.
+✔️ Speaker application form with name, surname, email, talk title, talk topic, and checkbox to receive more information.
 
-🏠 Next editions section with image and accordion.
+✔️ Footer with company logo, mission, page navigation, additional topics, and newsletter subscription.
 
-🏠 Form to become a speaker that includes name, surname, email, talk title, talk topic and check to receive more information.
+### The Ticket page includes:
 
-🏠 Footer with company logo and mission, page navigation, more topics and newsletter subscription.
+✔️ Navbar with company logo and navigation menu.
 
-### 𝗧𝗶𝗰𝗸𝗲𝘁𝘀
- 
-🎫 NavBar with the company logo and navigation menu.
+✔️ Presentation section with video background and entrance effect.
 
-🎫 Presentation of the page with background viedo and text with entrance effect.
+✔️ Cards displaying speakers with hover effect to show discount information.
 
-🎫 Cards that open when hovering with discount data.
+✔️ Ticket purchase form including name, surname, email, ticket quantity, discount category, and terms and conditions checkbox.
 
-🎫 Form to buy tickets that includes name, surname, email, amount of tickets, discount 
-category and check to agree withe the terms and conditions. 
+✔️ Footer with company logo, mission, page navigation, additional topics, and newsletter subscription.
 
-🎫 Footer with company logo and mission, page navigation, more topics and newsletter subscription.
+### The 404Error page includes:
 
-### 𝟰𝟬𝟰 𝗘𝗿𝗿𝗼𝗿
+✔️ Animated error message.
 
-🔍 Animation showing error message.
+✔️ "Under construction" message with link to Home page.
 
-🔍 Message that the page is under construction and link to return to Home.
+### General features:
 
-[![LinkToWeb](https://img.shields.io/badge/Link_to_the_Website-orange?style=for-the-badge&logo=appveyor.svg)](https://melirossi.github.io/Conference_Website/index.html)
+✔️ Simple and intuitive interface.
 
-## 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀
+✔️ Fully responsive design, compatible with all devices.
 
-✔️ Simple interface.
+✔️ Utilizes Fontawesome icons and Google fonts for a sleek and modern look.
 
-✔️ Responsive design. 
+✔️ Clean and attractive visual design.
 
-✔️ Fontawesome icons and Google fonts.
+✔️ "Buy Tickets" form with validation using JavaScript, including a reset button for convenience. Final payment amount, calculated based on number of tickets and discounts applied, is displayed alongside the payment button after form submission.
 
-✔️ Clean design with attractive visualization.
+### Resources used:
 
-✔️ Functional "Buy Tickets" form, with reset button and validated with JavaScrip. The final amount to pay (calculated according to the number of tickets and discount indicated) and the button to go to the payment page is displayed under the form when pressing the submit button.
-
-## 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝘂𝘀𝗲𝗱
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-## 𝗟𝗲𝘁'𝘀 𝗸𝗲𝗲𝗽 𝗶𝗻 𝘁𝗼𝘂𝗰𝗵!
+### I'd love to hear from you!
 
-𝗜𝗳 𝘆𝗼𝘂 𝗵𝗮𝘃𝗲 𝗮𝗻𝘆 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀, 𝗰𝗼𝗺𝗺𝗲𝗻𝘁𝘀 𝗼𝗿 𝘀𝘂𝗴𝗴𝗲𝘀𝘁𝗶𝗼𝗻𝘀 𝗱𝗼 𝗻𝗼𝘁 𝗵𝗲𝘀𝗶𝘁𝗮𝘁𝗲 𝘁𝗼 𝗰𝗼𝗻𝘁𝗮𝗰𝘁 𝗺𝗲. 𝗙𝗲𝗲𝗹 𝗳𝗿𝗲𝗲 𝘁𝗼 𝘂𝘀𝗲 𝘁𝗵𝗲 𝗰𝗼𝗱𝗲 𝗼𝗳 𝘁𝗵𝗶𝘀 𝗽𝗿𝗼𝗷𝗲𝗰𝘁!
+If you have any question, comments, or suggestions, do not hesitate to contact me (melisa.s.rossi@gmail.com). 
 
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/melirossi)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/melisasrossi/)
-
-![MadeWithLove](https://img.shields.io/badge/MADE_WITH_L♡VE_BY_MEL-ff69b4?style=for-the-badge&logo=appveyor.svg)
+<p align="center">
+<a href="mailto:melisa.s.rossi@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=AAE2FC&color=9C9C9C" alt="Gmail"/></a>
+<a href="https://www.linkedin.com/in/melisasrossi/" target="blank"><img align="center" src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=AAE2FC&color=9C9C9C" alt="Linkedin"/></a>
+</p>
+<br>
+<br>
+<p align="right">
+<a><img align="center" src="https://img.shields.io/badge/MADE_WITH_L♡VE_BY_MEL-AAE2FC?style=for-the-badge&logo=appveyor.svg"></a>
+</p>
