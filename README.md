@@ -16,7 +16,7 @@ This website was built thinking of a company that organizes conferences and even
 </table>
 <br>
 <p align="center">
-<a href="https://melirossi.github.io/conference_responsive_website/tickets.html" target="blank"><img align="center" src="https://img.shields.io/badge/Link_to_website-FC7800?style=for-the-badge" alt="LinkProyecto"/></a>
+<a href="https://melirossi.github.io/conference_responsive_website/" target="blank"><img align="center" src="https://img.shields.io/badge/Link_to_website-FC7800?style=for-the-badge" alt="LinkProyecto"/></a>
 </p>
 
 ### The Home page includes:
