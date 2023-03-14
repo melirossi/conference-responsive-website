@@ -10,13 +10,13 @@ This website was built thinking of a company that organizes conferences and even
 <br>
 <table align="center">
   <tr>
-    <td><img src="https://github.com/melirossi/conference_responsive_website/blob/master/Images/conference%20website.JPG" alt="website" height="240"></td>
-    <td><img src="https://github.com/melirossi/conference_responsive_website/blob/master/Images/tickets.JPG" alt="tickets section" height="240"></td>
+    <td><img src="https://github.com/melirossi/conference_responsive_website/blob/master/Images/conference%20website.JPG" alt="website" height="200"></td>
+    <td><img src="https://github.com/melirossi/conference_responsive_website/blob/master/Images/tickets.JPG" alt="tickets section" height="200"></td>
   </tr>
 </table>
 <br>
 <p align="center">
-<a href="https://melirossi.github.io/conference_responsive_website/" target="blank"><img align="center" src="https://img.shields.io/badge/Link_to_website-FC7800?style=for-the-badge" alt="LinkProyecto"/></a>
+<a href="https://melirossi.github.io/conference-responsive-website/" target="blank"><img align="center" src="https://img.shields.io/badge/Link_to_website-FC7800?style=for-the-badge" alt="LinkProyecto"/></a>
 </p>
 
 ### The Home page includes:
