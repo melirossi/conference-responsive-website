@@ -1,6 +1,6 @@
 ![InProgress](https://img.shields.io/badge/Status-completed-A7FC00?style=flat-square)
-![LastCommit](https://img.shields.io/github/last-commit/melirossi/conference_responsive_website?color=FC00A7&label=Last%20commit&style=flat-square)
-![Size](https://img.shields.io/github/repo-size/melirossi/conference_responsive_website?color=00A7FC&label=Repo%20size&style=flat-square)
+![LastCommit](https://img.shields.io/github/last-commit/melirossi/conference-responsive-website?color=FC00A7&label=Last%20commit&style=flat-square)
+![Size](https://img.shields.io/github/repo-size/melirossi/conference-responsive-website?color=00A7FC&label=Repo%20size&style=flat-square)
 
 # ✍🏻 𝙍𝙚𝙨𝙥𝙤𝙣𝙨𝙞𝙫𝙚 𝙬𝙚𝙗𝙨𝙞𝙩𝙚 𝙛𝙤𝙧 𝙖𝙣 𝙤𝙧𝙜𝙖𝙣𝙞𝙯𝙖𝙩𝙞𝙤𝙣 𝙩𝙝𝙖𝙩 𝙝𝙤𝙨𝙩𝙨 𝙘𝙤𝙣𝙛𝙚𝙧𝙚𝙣𝙘𝙚𝙨 𝙛𝙤𝙧 𝙬𝙧𝙞𝙩𝙚𝙧𝙨
 
